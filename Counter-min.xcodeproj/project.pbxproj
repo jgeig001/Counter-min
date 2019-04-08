@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		AB655AC2225B63280066887C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB655AC1225B63280066887C /* AppDelegate.swift */; };
 		AB655AC4225B63280066887C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB655AC3225B63280066887C /* ViewController.swift */; };
-		AB655AC7225B63280066887C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB655AC5225B63280066887C /* Main.storyboard */; };
 		AB655AC9225B632F0066887C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB655AC8225B632F0066887C /* Assets.xcassets */; };
 		AB655ACC225B632F0066887C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB655ACA225B632F0066887C /* LaunchScreen.storyboard */; };
+		AB655AD4225B65140066887C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB655AD3225B65140066887C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB655ABE225B63280066887C /* Counter-min.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter-min.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB655AC1225B63280066887C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB655AC3225B63280066887C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB655AC6225B63280066887C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB655AC8225B632F0066887C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB655ACB225B632F0066887C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB655ACD225B632F0066887C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB655AD3225B65140066887C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				AB655AC1225B63280066887C /* AppDelegate.swift */,
 				AB655AC3225B63280066887C /* ViewController.swift */,
-				AB655AC5225B63280066887C /* Main.storyboard */,
+				AB655AD3225B65140066887C /* Main.storyboard */,
 				AB655AC8225B632F0066887C /* Assets.xcassets */,
 				AB655ACA225B632F0066887C /* LaunchScreen.storyboard */,
 				AB655ACD225B632F0066887C /* Info.plist */,
@@ -124,7 +124,7 @@
 			files = (
 				AB655ACC225B632F0066887C /* LaunchScreen.storyboard in Resources */,
 				AB655AC9225B632F0066887C /* Assets.xcassets in Resources */,
-				AB655AC7225B63280066887C /* Main.storyboard in Resources */,
+				AB655AD4225B65140066887C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB655AC5225B63280066887C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB655AC6225B63280066887C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB655ACA225B632F0066887C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.geiger.Counter-min";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathan.geiger.Counter-min";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
